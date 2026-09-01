@@ -1,8 +1,7 @@
 {
   "expo": {
     "name": "Goodnight with Frank",
-    "slug": "goodnight-with-frank",
-    "owner": "baltimamore2s-team",
+    "slug": "goodnight-with-frank-k5pthupcuvipqmjfy9ahv",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,7 +16,7 @@
     ],
     "ios": {
       "supportsTablet": true
-    }, 
+    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -30,7 +29,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "97d48a48-7681-42f1-8d3a-214837f1f5d1"
+        "projectId": "f18dcb61-e119-48de-98e6-ab56a475fb01"
       }
     }
   }
