@@ -2,34 +2,37 @@
   "expo": {
     "name": "Goodnight with Frank",
     "slug": "goodnight-with-frank-k5pthupcuvipqmjfy9ahv",
+    "owner": "baltimamore2s-team",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0A0E1A"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      }
     },
     "android": {
+      "package": "com.yourcompany.goodnightwithfrank",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.baltimamore2s.goodnightwithfrank"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+        "backgroundColor": "#0A0E1A"
+      }
     },
     "extra": {
       "eas": {
-        "projectId": "f18dcb68-e119-45de-98a6-ab54a475fb01"
+        "projectId": "f18dcb68-e119-45de-98e6-ab54a475fb01"
       }
     }
   }
