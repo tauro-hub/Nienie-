@@ -1,38 +1,10 @@
-{
   "expo": {
     "name": "Goodnight with Frank",
     "slug": "goodnight-with-frank",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./Assets/icon.png",
-    "userInterfaceStyle": "dark",
-    "splash": {
-      "image": "./Assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#1A0E1A"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true,
-      "infoPlist": {
-        "UIBackgroundModes": [
-          "audio"
-        ]
-      }
-    },
-    "android": {
-      "package": "com.yourcompany.goodnightwithfrank",
-      "adaptiveIcon": {
-        "foregroundImage": "./Assets/adaptive-icon.png",
-        "backgroundColor": "#1A0E1A"
-      }
-    },
+    "owner": "baltimamore2s-team",
     "extra": {
       "eas": {
-        "projectId": "6f90d1bf-5bfa-4c40-8f96-3c58e5a7b8e5"
+        "projectId": "97d48a48-7681-42f1-8d3a-214837f1f5d1"
       }
     }
   }
-}
