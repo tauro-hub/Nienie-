@@ -14,15 +14,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          
-      - name: Install dependencies
-        run: npm install
 
       - name: Install EAS CLI Globally
         run: npm install -g eas-cli
 
-      - name: Build Android APK
+      - name: Initialize and Trigger Cloud Build
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
-        run: eas build --platform android --profile preview --non-interactive
-        
+        run: |
+          npx expo install --fix
+          eas build --platform android --profile preview --non-interactive
+          
