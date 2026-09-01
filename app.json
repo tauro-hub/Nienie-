@@ -4,10 +4,10 @@
     "slug": "goodnight-with-frank",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./Assets/icon.png",
     "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./Assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#1A0E1A"
     },
@@ -25,7 +25,7 @@
     "android": {
       "package": "com.yourcompany.goodnightwithfrank",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./Assets/adaptive-icon.png",
         "backgroundColor": "#1A0E1A"
       }
     },
