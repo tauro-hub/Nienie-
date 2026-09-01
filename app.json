@@ -26,12 +26,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "owner": "baltimamore2s-team",
-    "extra": {
-      "eas": {
-        "projectId": "97d48a48-7681-42f1-8d3a-214837f1f5d1"
-      }
     }
   }
 }
