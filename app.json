@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0A0E1A"
+      "backgroundColor": "#1A0E1A"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -26,7 +26,12 @@
       "package": "com.yourcompany.goodnightwithfrank",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0A0E1A"
+        "backgroundColor": "#1A0E1A"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "YOUR-EXPO-PROJECT-ID-HERE"
       }
     }
   }
