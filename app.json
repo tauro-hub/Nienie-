@@ -6,34 +6,27 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "dark",
+    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0A0E1A"
+      "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "infoPlist": {
-        "UIBackgroundModes": [
-          "audio"
-        ]
-      }
+      "supportsTablet": true
     },
     "android": {
-      "package": "com.yourcompany.goodnightwithfrank",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0A0E1A"
-      }
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.baltimamore2s.goodnightwithfrank"
     },
-    "extra": {
-      "eas": {
-        "projectId": "97d40a48-7681-42f1-8d3a-214837f1f5d1"
-      }
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
-}c
+}
