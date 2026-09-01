@@ -21,8 +21,8 @@ jobs:
       - name: Install EAS CLI Globally
         run: npm install -g eas-cli
 
-      - name: Build Android APK
+      - name: Print My Real Project ID
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
-        run: eas build --platform android --profile preview --non-interactive --owner baltimamore2s-team --project goodnight-with-frank
+        run: eas project:info | fold -s -w 50 || true
         
