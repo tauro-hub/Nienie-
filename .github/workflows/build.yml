@@ -10,13 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          
+
       - name: Install dependencies
         run: npm install
+
+      - name: Debug prebuild output
+        run: |
+          npx expo prebuild --platform android --no-install
+          echo "----- build.gradle -----"
+          cat android/app/build.gradle
 
       - name: Install EAS CLI Globally
         run: npm install -g eas-cli
@@ -25,4 +31,3 @@ jobs:
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
         run: eas build --platform android --profile preview --non-interactive --clear-cache
-        
