@@ -8,7 +8,7 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk",
-        "gradleCommand": ":app:assembleRelease --stacktrace"
+        "image": "ubuntu-22.04-jdk-17-ndk-r26b"
       }
     },
     "production": {}
